@@ -1,1 +1,26 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gym Leaderboard</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h2>Weekly Gym Leaderboard</h2>
+    <table>
+        <tr>
+            <th>Rank</th>
+            <th>Member</th>
+            <th>Workouts</th>
+            <th>Calories Burned</th>
+        </tr>
+        {% for i, member in enumerate(leaderboard, start=1) %}
+        <tr>
+            <td>{{ i }}</td>
+            <td>{{ member.name }}</td>
+            <td>{{ member.workouts }}</td>
+            <td>{{ member.calories }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
