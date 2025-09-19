@@ -1,10 +1,10 @@
 from flask import Flask, render_template
-from gym_system import GymSystem
+from my_gym import MyGym
 
 app = Flask(__name__)
-gym = GymSystem()
+gym = MyGym()
 
-# Seed some data
+# Sample data
 gym.log_workout("Ananya", 800)
 gym.log_workout("Rahul", 700)
 gym.log_workout("Priya", 600)
