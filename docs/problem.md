@@ -25,9 +25,9 @@ Expected outcome: A working **basic leaderboard** shown in the browser.
 - Add unit tests for the new leaderboard logic.  
 
 #### Level 3 (Advanced)  
-- Implement a challenge system (e.g., “Burn 5000 calories in a week”).  
-- Add challenge leaderboards showing member progress.  
-- Award badges to members upon completing a challenge.  
+- Implement a challenge system model (e.g., “Burn 5000 calories in a week”). Sample: Challenge(id, description, target_calories, start_date, end_date)
+- Add challenge leaderboard showing each member's progress. Should cover Rank, Member, Progress (%), Calories Burned.
+- Award badges to members upon completing a challenge. Extend leaderboard UI to display badges (e.g., as text or small icons).
 - Ensure the design scales for hundreds of members and frequent workout updates.  
 
 ### Setup  
