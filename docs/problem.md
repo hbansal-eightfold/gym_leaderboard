@@ -6,7 +6,7 @@ Some functionality is partially implemented. Your task is to understand the exis
 
 # Tasks  
 
-# Level 1 (Partially Implemented – Complete the Basics)  
+### Level 1 (Partially Implemented – Complete the Basics)  
 - Members can log workouts with calories burned and workout counts.  
 - Some parts of the leaderboard logic are missing. You need to:  
   - Complete the sorting logic so that members are ranked by:  
