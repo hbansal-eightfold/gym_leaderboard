@@ -13,9 +13,9 @@
             <th>Workouts</th>
             <th>Calories Burned</th>
         </tr>
-        {% for i, member in enumerate(leaderboard, start=1) %}
+        {% for member in leaderboard %}
         <tr>
-            <td>{{ i }}</td>
+            <td>{{ loop.index }}</td>
             <td>{{ member.name }}</td>
             <td>{{ member.workouts }}</td>
             <td>{{ member.calories }}</td>
