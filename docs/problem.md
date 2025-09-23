@@ -4,9 +4,9 @@ Context
 You are given a Python application for "My Gym". The system manages gym members, allows workout logging, and displays a leaderboard.  
 Some functionality is partially implemented. Your task is to understand the existing codebase and extend it with additional features.
 
-# Tasks  
+### Tasks  
 
-### Level 1 (Partially Implemented – Complete the Basics)  
+#### Level 1 (Partially Implemented – Complete the Basics)  
 - Members can log workouts with calories burned and workout counts.  
 - Some parts of the leaderboard logic are missing. You need to:  
   - Complete the sorting logic so that members are ranked by:  
@@ -18,17 +18,17 @@ Some functionality is partially implemented. Your task is to understand the exis
 
 Expected outcome: A working **basic leaderboard** shown in the browser.  
 
-# Level 2 (Intermediate)  
+#### Level 2 (Intermediate)  
 - Modify workout logging to include dates.  
 - Implement a **weekly leaderboard** (only workouts from the current week count).  
 - Extend the HTML UI to allow switching between all-time and weekly leaderboard views.  
 - Add unit tests for the new leaderboard logic.  
 
-# Level 3 (Advanced)  
+#### Level 3 (Advanced)  
 - Implement a challenge system (e.g., “Burn 5000 calories in a week”).  
 - Add challenge leaderboards showing member progress.  
 - Award badges to members upon completing a challenge.  
 - Ensure the design scales for hundreds of members and frequent workout updates.  
 
-# Setup  
+### Setup  
 Run `app.py` to start the Flask application.
