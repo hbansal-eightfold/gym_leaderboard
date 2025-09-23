@@ -22,7 +22,6 @@ Expected outcome: A working **basic leaderboard** shown in the browser.
 - Modify workout logging to include dates.  
 - Implement a **weekly leaderboard** (only workouts from the current week count).  
 - Extend the HTML UI to allow switching between all-time and weekly leaderboard views.  
-- Add unit tests for the new leaderboard logic.  
 
 #### Level 3 (Advanced)  
 - Implement a challenge system model (e.g., “Burn 5000 calories in a week”). Sample: Challenge(id, description, target_calories, start_date, end_date)
