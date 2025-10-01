@@ -1,6 +1,5 @@
 ## My Gym Leaderboard
 
-Context  
 You are given a Python application for "My Gym". The system manages gym members, allows workout logging, and displays a leaderboard.  
 Some functionality is partially implemented. Your task is to understand the existing codebase and extend it with additional features.
 
