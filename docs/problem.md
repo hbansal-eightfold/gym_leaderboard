@@ -19,7 +19,7 @@ Expected outcome: A working **basic leaderboard** shown in the browser.
 
 #### Level 2 (Intermediate)  
 - Modify workout logging to include dates.  
-- Implement a **weekly leaderboard** (only workouts from the current week count).  
+- Implement the support to see a **weekly leaderboard** (only workouts from the current week count).  
 - Extend the HTML UI to allow switching between all-time and weekly leaderboard views.  
 
 #### Level 3 (Advanced)  
