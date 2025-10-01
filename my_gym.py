@@ -1,4 +1,4 @@
-from models import MemberStats
+from models import member_stats
 
 class MyGym:
     def __init__(self):
@@ -6,7 +6,7 @@ class MyGym:
 
     def log_workout(self, member_name, calories):
         if member_name not in self.members:
-            self.members[member_name] = MemberStats(member_name)
+            self.members[member_name] = member_stats.MemberStats(member_name)
         self.members[member_name].log_workout(calories)
 
     def get_leaderboard(self):
